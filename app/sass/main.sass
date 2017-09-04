@@ -4,12 +4,15 @@
 @import "vars"
 @import "../libs/bootstrap-grid/css/bootstrap-grid"
 
+*
+  box-sizing: border-box
+
 body
     font-size: 18px
     position: relative
     line-height: normal
     font-family: $f-Regular
-    overflow: hidden
+    overflow: auto
     color: #000
     background-color: #fff
     background-repeat: no-repeat
@@ -41,6 +44,12 @@ h2
   color: #000
   font-weight: normal
 
+.f-16-medium
+  font-family: $f-Medium
+  font-size: $size-16px
+  color: #000
+  font-weight: normal
+
 .f-18px
   font-size: $size-18px
 
@@ -54,25 +63,36 @@ h2
     top: 0
     bottom: 0
 
+.p-l-r-0
+  padding: 0
+
 .m-b-0
   margin-bottom: 0
 
-.m-t-45
-  margin-top: 2.25em
+.m-t-15
+  margin-top: 0.75em
+
+.m-t
+  margin-top: 0.5em
 
 .m-t-minus
-  margin-top: 0.5em
+  margin-top: -2em
+
+.p-l-r
+  padding: 0 5em
 
 .center
   display: block
-  margin: 4em auto
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  margin: auto
 
 .text-center
   text-align: center
 
-.div
-  box-sizing: border-box
+.b-2
+  background:
+    image: url(../img/bg_1.jpg)
+    position: center top
+    size: cover
 
 @import "media"
 // Всегда в конце
