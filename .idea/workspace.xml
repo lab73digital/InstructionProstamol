@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb89de4-f2c5-4664-b736-ad8b9048f82f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/Prostamol_uno_upakovka1.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/libs/bootstrap-grid/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/app/libs/bootstrap-grid/css/bootstrap-grid.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="333">
+              <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -37,18 +36,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+            <state relative-caret-position="335">
+              <caret line="140" column="58" lean-forward="false" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
               <folding>
-                <element signature="e#1734#1740#0" expanded="true" />
-                <element signature="e#1740#1746#0" expanded="true" />
-                <element signature="e#1746#1752#0" expanded="true" />
-                <element signature="e#1752#1758#0" expanded="true" />
-                <element signature="e#1758#1764#0" expanded="true" />
+                <element signature="e#1756#1762#0" expanded="true" />
+                <element signature="e#1762#1768#0" expanded="true" />
+                <element signature="e#1768#1774#0" expanded="true" />
+                <element signature="e#1774#1780#0" expanded="true" />
+                <element signature="e#1780#1786#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-grid.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/libs/bootstrap-grid/css/bootstrap-grid.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="203" column="17" lean-forward="true" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,9 +86,9 @@
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/sass/_fonts.sass" />
         <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/libs/bootstrap-grid/css/bootstrap-grid.css" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
-        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -249,6 +258,27 @@
               <item name="InstructionProstamol" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InstructionProstamol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstructionProstamol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InstructionProstamol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstructionProstamol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap-grid" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="InstructionProstamol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstructionProstamol" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="libs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap-grid" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="InstructionProstamol" type="b2602c69:ProjectViewProjectNode" />
@@ -435,7 +465,7 @@
       <updated>1504189568312</updated>
       <workItem from="1504189569599" duration="309000" />
       <workItem from="1504263838760" duration="2560000" />
-      <workItem from="1504278561828" duration="32857000" />
+      <workItem from="1504278561828" duration="37922000" />
     </task>
     <task id="LOCAL-00001" summary="main fix">
       <created>1504189723580</created>
@@ -455,7 +485,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35726000" />
+    <option name="totallyTimeSpent" value="40791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -520,11 +550,11 @@
         <state relative-caret-position="630">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#1734#1740#0" expanded="true" />
-            <element signature="e#1740#1746#0" expanded="true" />
-            <element signature="e#1746#1752#0" expanded="true" />
-            <element signature="e#1752#1758#0" expanded="true" />
-            <element signature="e#1758#1764#0" expanded="true" />
+            <element signature="e#1756#1762#0" expanded="true" />
+            <element signature="e#1762#1768#0" expanded="true" />
+            <element signature="e#1768#1774#0" expanded="true" />
+            <element signature="e#1774#1780#0" expanded="true" />
+            <element signature="e#1780#1786#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,14 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libs/bootstrap-grid/css/bootstrap-grid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/bg_1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -673,25 +695,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="140" column="58" lean-forward="false" selection-start-line="140" selection-start-column="58" selection-end-line="140" selection-end-column="58" />
+          <folding>
+            <element signature="e#1756#1762#0" expanded="true" />
+            <element signature="e#1762#1768#0" expanded="true" />
+            <element signature="e#1768#1774#0" expanded="true" />
+            <element signature="e#1774#1780#0" expanded="true" />
+            <element signature="e#1780#1786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="333">
+          <caret line="116" column="21" lean-forward="true" selection-start-line="116" selection-start-column="21" selection-end-line="116" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/libs/bootstrap-grid/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-          <folding>
-            <element signature="e#1734#1740#0" expanded="true" />
-            <element signature="e#1740#1746#0" expanded="true" />
-            <element signature="e#1746#1752#0" expanded="true" />
-            <element signature="e#1752#1758#0" expanded="true" />
-            <element signature="e#1758#1764#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="366">
+          <caret line="203" column="17" lean-forward="true" selection-start-line="203" selection-start-column="1" selection-end-line="203" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
