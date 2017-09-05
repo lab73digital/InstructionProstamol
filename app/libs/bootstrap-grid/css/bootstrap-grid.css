@@ -519,6 +519,9 @@
   .col-md-offset-1 {
     margin-left: 8.33333333%;
   }
+  .col-md-offset-01 {
+    margin-left: 6.3%;
+  }
   .col-md-offset-0 {
     margin-left: 0%;
   }
