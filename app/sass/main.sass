@@ -190,6 +190,11 @@ h5
   font-size: $size-18px
   font-family: $f-Regular
   padding: 5px 15px
+  &:hover
+    .invisible-text
+      display: block
+
+
 
 
 .flex-column
@@ -248,11 +253,8 @@ h5
   left: get-vw(117px)
   top: get-vw(157px)
 
-
-
-//@media only screen and (max-width: 992px)
-//@media only screen and (max-width: 1200px)
-
+.invisible-text
+  display: none
 
 @import "media"
 // Всегда в конце

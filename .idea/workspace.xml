@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eb89de4-f2c5-4664-b736-ad8b9048f82f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_media.sass" afterPath="$PROJECT_DIR$/app/sass/_media.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/_vars.sass" afterPath="$PROJECT_DIR$/app/sass/_vars.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.sass" afterPath="$PROJECT_DIR$/app/sass/main.sass" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="main.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="217" column="16" lean-forward="false" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="16" />
+            <state relative-caret-position="373">
+              <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,23 +38,23 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="120" column="44" lean-forward="false" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="44" />
+            <state relative-caret-position="247">
+              <caret line="283" column="44" lean-forward="false" selection-start-line="283" selection-start-column="44" selection-end-line="283" selection-end-column="44" />
               <folding>
                 <element signature="e#1756#1762#0" expanded="true" />
                 <element signature="e#1762#1768#0" expanded="true" />
                 <element signature="e#1768#1774#0" expanded="true" />
                 <element signature="e#1774#1780#0" expanded="true" />
                 <element signature="e#1780#1786#0" expanded="true" />
-                <element signature="e#14616#14622#0" expanded="true" />
-                <element signature="e#14622#14628#0" expanded="true" />
-                <element signature="e#14628#14634#0" expanded="true" />
-                <element signature="e#14634#14640#0" expanded="true" />
-                <element signature="e#14640#14646#0" expanded="true" />
-                <element signature="e#14646#14652#0" expanded="true" />
-                <element signature="e#14652#14658#0" expanded="true" />
-                <element signature="e#14658#14664#0" expanded="true" />
-                <element signature="e#14664#14670#0" expanded="true" />
+                <element signature="e#15753#15759#0" expanded="true" />
+                <element signature="e#15759#15765#0" expanded="true" />
+                <element signature="e#15765#15771#0" expanded="true" />
+                <element signature="e#15771#15777#0" expanded="true" />
+                <element signature="e#15777#15783#0" expanded="true" />
+                <element signature="e#15783#15789#0" expanded="true" />
+                <element signature="e#15789#15795#0" expanded="true" />
+                <element signature="e#15795#15801#0" expanded="true" />
+                <element signature="e#15801#15807#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,7 +74,7 @@
         <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -120,8 +119,8 @@
         <option value="$PROJECT_DIR$/app/libs/bootstrap-grid/css/bootstrap-grid.css" />
         <option value="$PROJECT_DIR$/app/sass/_fonts.sass" />
         <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/_media.sass" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
@@ -499,7 +498,7 @@
       <updated>1504189568312</updated>
       <workItem from="1504189569599" duration="309000" />
       <workItem from="1504263838760" duration="2560000" />
-      <workItem from="1504278561828" duration="77299000" />
+      <workItem from="1504278561828" duration="81229000" />
     </task>
     <task id="LOCAL-00001" summary="main fix">
       <created>1504189723580</created>
@@ -519,7 +518,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80168000" />
+    <option name="totallyTimeSpent" value="84098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,15 +597,15 @@
             <element signature="e#1768#1774#0" expanded="true" />
             <element signature="e#1774#1780#0" expanded="true" />
             <element signature="e#1780#1786#0" expanded="true" />
-            <element signature="e#14616#14622#0" expanded="true" />
-            <element signature="e#14622#14628#0" expanded="true" />
-            <element signature="e#14628#14634#0" expanded="true" />
-            <element signature="e#14634#14640#0" expanded="true" />
-            <element signature="e#14640#14646#0" expanded="true" />
-            <element signature="e#14646#14652#0" expanded="true" />
-            <element signature="e#14652#14658#0" expanded="true" />
-            <element signature="e#14658#14664#0" expanded="true" />
-            <element signature="e#14664#14670#0" expanded="true" />
+            <element signature="e#15753#15759#0" expanded="true" />
+            <element signature="e#15759#15765#0" expanded="true" />
+            <element signature="e#15765#15771#0" expanded="true" />
+            <element signature="e#15771#15777#0" expanded="true" />
+            <element signature="e#15777#15783#0" expanded="true" />
+            <element signature="e#15783#15789#0" expanded="true" />
+            <element signature="e#15789#15795#0" expanded="true" />
+            <element signature="e#15795#15801#0" expanded="true" />
+            <element signature="e#15801#15807#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -744,33 +743,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="120" column="44" lean-forward="false" selection-start-line="120" selection-start-column="44" selection-end-line="120" selection-end-column="44" />
-          <folding>
-            <element signature="e#1756#1762#0" expanded="true" />
-            <element signature="e#1762#1768#0" expanded="true" />
-            <element signature="e#1768#1774#0" expanded="true" />
-            <element signature="e#1774#1780#0" expanded="true" />
-            <element signature="e#1780#1786#0" expanded="true" />
-            <element signature="e#14616#14622#0" expanded="true" />
-            <element signature="e#14622#14628#0" expanded="true" />
-            <element signature="e#14628#14634#0" expanded="true" />
-            <element signature="e#14634#14640#0" expanded="true" />
-            <element signature="e#14640#14646#0" expanded="true" />
-            <element signature="e#14646#14652#0" expanded="true" />
-            <element signature="e#14652#14658#0" expanded="true" />
-            <element signature="e#14658#14664#0" expanded="true" />
-            <element signature="e#14664#14670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -783,10 +759,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="283" column="44" lean-forward="false" selection-start-line="283" selection-start-column="44" selection-end-line="283" selection-end-column="44" />
+          <folding>
+            <element signature="e#1756#1762#0" expanded="true" />
+            <element signature="e#1762#1768#0" expanded="true" />
+            <element signature="e#1768#1774#0" expanded="true" />
+            <element signature="e#1774#1780#0" expanded="true" />
+            <element signature="e#1780#1786#0" expanded="true" />
+            <element signature="e#15753#15759#0" expanded="true" />
+            <element signature="e#15759#15765#0" expanded="true" />
+            <element signature="e#15765#15771#0" expanded="true" />
+            <element signature="e#15771#15777#0" expanded="true" />
+            <element signature="e#15777#15783#0" expanded="true" />
+            <element signature="e#15783#15789#0" expanded="true" />
+            <element signature="e#15789#15795#0" expanded="true" />
+            <element signature="e#15795#15801#0" expanded="true" />
+            <element signature="e#15801#15807#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="217" column="16" lean-forward="false" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="16" />
+        <state relative-caret-position="373">
+          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
           <folding />
         </state>
       </provider>
