@@ -19,6 +19,8 @@ gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
         'app/libs/gsap/src/minified/TweenMax.min.js',
+        'app/libs/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js',
+		'app/libs/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js',
 		'app/js/common.js' // Всегда в конце
 		])
 	.pipe(concat('scripts.min.js'))
@@ -108,5 +110,4 @@ gulp.task('deploy', function() {
 
 gulp.task('removedist', function() { return del.sync('dist'); });
 gulp.task('clearcache', function () { return cache.clearAll(); });
-
 gulp.task('default', ['watch']);
