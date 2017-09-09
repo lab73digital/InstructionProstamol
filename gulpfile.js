@@ -65,7 +65,7 @@ gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
 gulp.task('imagemin', function() {
 	return gulp.src('app/img/**/*')
 	.pipe(cache(imagemin()))
-	.pipe(gulp.dest('dist/img')); 
+	.pipe(gulp.dest('dist2/img/special/InstructionProstamol'));
 });
 
 gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
@@ -73,19 +73,19 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
 	var buildFiles = gulp.src([
 		'app/*.html',
 		'app/.htaccess'
-		]).pipe(gulp.dest('dist'));
+		]).pipe(gulp.dest('dist2'));
 
 	var buildCss = gulp.src([
 		'app/css/main.min.css',
-		]).pipe(gulp.dest('dist/css'));
+		]).pipe(gulp.dest('dist2/css/special/InstructionProstamol'));
 
 	var buildJs = gulp.src([
 		'app/js/scripts.min.js'
-		]).pipe(gulp.dest('dist/js'));
+		]).pipe(gulp.dest('dist2/js/special/InstructionProstamol'));
 
 	var buildFonts = gulp.src([
 		'app/fonts/**/*']
-		).pipe(gulp.dest('dist/fonts'));
+		).pipe(gulp.dest('dist2/fonts/special/InstructionProstamol'));
 
 });
 

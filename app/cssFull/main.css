@@ -1,84 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&subset=cyrillic,cyrillic-ext");
-/* font-family: "GothamProRegular"; */
 @font-face {
-  font-family: "GothamProRegular";
-  src: url("../fonts/GothamProRegular/GothamProRegular.eot");
-  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype");
+  font-family: FiraSans-Bold;
+  src: url(/fonts/FiraSans-Bold.ttf) format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: 400; }
 
-/* font-family: "GothamProBold"; */
 @font-face {
-  font-family: "GothamProBold";
-  src: url("../fonts/GothamProBold/GothamProBold.eot");
-  src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBold/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype");
+  font-family: FiraSans-Black;
+  src: url(/fonts/FiraSans-Black.ttf) format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: 400; }
 
-/* font-family: "GothamProLight"; */
 @font-face {
-  font-family: "GothamProLight";
-  src: url("../fonts/GothamProLight/GothamProLight.eot");
-  src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProLight/GothamProLight.woff") format("woff"), url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype");
+  font-family: FiraSans-Light;
+  src: url(/fonts/FiraSans-Light.ttf) format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: 400; }
 
-/* font-family: "GothamProMedium"; */
 @font-face {
-  font-family: "GothamProMedium";
-  src: url("../fonts/GothamProMedium/GothamProMedium.eot");
-  src: url("../fonts/GothamProMedium/GothamProMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"), url("../fonts/GothamProMedium/GothamProMedium.ttf") format("truetype");
+  font-family: FiraSans-Medium;
+  src: url(/fonts/FiraSans-Medium.ttf) format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: 400; }
 
-/* font-family: "FiraSans-Black"; */
-@font-face {
-  font-family: "FiraSans-Black";
-  src: url("../fonts/FiraSans-Black.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-/* font-family: "FiraSans-Bold"; */
-@font-face {
-  font-family: "FiraSans-Bold";
-  src: url("../fonts/FiraSans-Bold.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-/* font-family: "FiraSans-Light"; */
-@font-face {
-  font-family: "FiraSans-Light";
-  src: url("../fonts/FiraSans-Light.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-/* font-family: "FiraSans-LightItalic"; */
-@font-face {
-  font-family: "FiraSans-LightItalic";
-  src: url("../fonts/FiraSans-LightItalic.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-/* font-family: "FiraSans-Medium"; */
-@font-face {
-  font-family: "FiraSans-Medium";
-  src: url("../fonts/FiraSans-Medium.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-/* font-family: "FiraSans-Regular"; */
 @font-face {
   font-family: FiraSans-Regular;
+  src: url(/fonts/FiraSans-Regular.ttf) format("truetype");
   font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/FiraSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/FiraSans-Regular.woff2") format("woff2"), url("../fonts/FiraSans-Regular.woff") format("woff"), url("../fonts/FiraSans-Regular.ttf") format("truetype"), url("../fonts/FiraSans-Regular.svg#FiraSans-Regular") format("svg"); }
-
-/* font-family: "MyriadPro-Regular"; */
-@font-face {
-  font-family: "MyriadPro-Regular";
-  src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
-  font-style: normal;
-  font-weight: normal; }
+  font-weight: 400; }
 
 /*!
  * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=eda6364aa4dfc3947b2b)
@@ -941,6 +889,9 @@
 .col-xs-offset-1 {
   margin-left: 8.33333333%; }
 
+.col-xs-offset-01 {
+  margin-left: 6.3%; }
+
 .col-xs-offset-0 {
   margin-left: 0%; }
 
@@ -1153,6 +1104,8 @@
     margin-left: 16.66666667%; }
   .col-md-offset-1 {
     margin-left: 8.33333333%; }
+  .col-md-offset-01 {
+    margin-left: 6.3%; }
   .col-md-offset-0 {
     margin-left: 0%; } }
 
@@ -1482,26 +1435,248 @@
   .hidden-print {
     display: none !important; } }
 
-body {
-  font-size: 18px;
+* {
+  box-sizing: border-box; }
+
+.prostamol-instruction {
+  font-size: 1rem;
   position: relative;
   line-height: normal;
-  font-family: "GothamProRegular", sans-serif;
-  overflow: hidden;
-  color: #000;
+  font-family: "FiraSans-Regular", sans-serif;
+  overflow: auto;
+  color: #333333;
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  padding: 0; }
-
-h2 {
-  font-family: "FiraSans-Bold", sans-serif;
-  font-size: 1.25vw; }
-
-.f-24-bold {
-  font-family: "FiraSans-Bold", sans-serif;
-  font-size: 1.25vw; }
+  padding: 0;
+  text-align: center; }
+  .prostamol-instruction h2 {
+    font-family: "FiraSans-Bold", sans-serif;
+    font-size: 1.333rem;
+    color: #AA2528;
+    text-transform: uppercase;
+    margin-top: 45px; }
+  .prostamol-instruction h5 {
+    font-family: "FiraSans-Bold", sans-serif;
+    font-size: 1rem;
+    font-weight: normal; }
+  .prostamol-instruction .f-24-light {
+    font-family: "FiraSans-Light", sans-serif;
+    font-size: 1.333rem;
+    font-weight: normal; }
+  .prostamol-instruction .f-18-light {
+    font-family: "FiraSans-Light", sans-serif;
+    font-size: 1rem;
+    font-weight: normal; }
+  .prostamol-instruction .f-24-bold {
+    font-family: "FiraSans-Bold", sans-serif;
+    font-size: 1.333rem;
+    color: #000;
+    font-weight: normal; }
+  .prostamol-instruction .f-24-medium {
+    font-family: "FiraSans-Medium", sans-serif;
+    font-size: 1.333rem;
+    color: #000;
+    font-weight: normal; }
+  .prostamol-instruction .f-16-medium {
+    font-family: "FiraSans-Medium", sans-serif;
+    font-size: 0.889rem;
+    color: #000;
+    font-weight: normal; }
+  .prostamol-instruction .f-18px {
+    font-size: 1rem; }
+  .prostamol-instruction .f-14px {
+    font-size: 0.778rem; }
+  .prostamol-instruction .f-20-light {
+    font-size: 1.111rem;
+    font-family: "FiraSans-Light", sans-serif;
+    font-weight: normal; }
+  .prostamol-instruction .m-t-b-0 {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .prostamol-instruction .m-t-b-10 {
+    margin: 30px 0; }
+  .prostamol-instruction .m {
+    margin: 10px; }
+  .prostamol-instruction .m-a {
+    margin: auto; }
+  .prostamol-instruction .p-l-r-0 {
+    padding: 0; }
+  .prostamol-instruction .m-b-0 {
+    margin-bottom: 0; }
+  .prostamol-instruction .m-b-10 {
+    margin-bottom: 30px; }
+  .prostamol-instruction .m-b-5 {
+    margin-bottom: 20px; }
+  .prostamol-instruction .p-b-1 {
+    padding-bottom: 1em; }
+  .prostamol-instruction .m-t-15 {
+    margin-top: 0.75em; }
+  .prostamol-instruction .m-t {
+    margin-top: 0.5em; }
+  .prostamol-instruction .m-t-minus {
+    margin-top: -2em; }
+  .prostamol-instruction .p-l-r {
+    padding: 0 5rem; }
+  .prostamol-instruction .p-t {
+    padding-top: 1.5em; }
+  .prostamol-instruction .center {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .prostamol-instruction .text-center {
+    text-align: center; }
+  .prostamol-instruction .text-left {
+    text-align: left; }
+  .prostamol-instruction .text-right {
+    text-align: right; }
+  .prostamol-instruction .b-2-bg {
+    background-image: url(../img/bg_1.jpg);
+    background-position: center top;
+    background-size: cover; }
+  .prostamol-instruction .b-3-bg {
+    background-image: url(../img/bg_2.jpg);
+    background-position: center top;
+    background-size: cover; }
+  .prostamol-instruction .border {
+    border-radius: 50px;
+    border: 2px solid white; }
+  .prostamol-instruction .b-5-p {
+    padding: 2em 1em 4em 1em; }
+  .prostamol-instruction .hr-line {
+    border: none;
+    height: 1px;
+    background-color: #eceef0; }
+  .prostamol-instruction .hr-line-radius {
+    border-radius: 5px; }
+  .prostamol-instruction .bigNumber {
+    font-size: 114px;
+    font-family: "FiraSans-Black", sans-serif;
+    color: #FFFFFF;
+    padding-left: 15px; }
+  .prostamol-instruction .roundedRect {
+    background: #ECF0F6;
+    border: none;
+    border-radius: 100px;
+    font-family: "FiraSans-Regular", sans-serif;
+    margin: 30px 0; }
+  .prostamol-instruction .textInRoundeRect {
+    min-height: 150px;
+    font-size: 1.111rem; }
+  .prostamol-instruction .textInBricks {
+    min-height: 135px;
+    font-size: 1.111rem; }
+  .prostamol-instruction .textWidth {
+    width: 200px; }
+  .prostamol-instruction .button {
+    display: inline-block;
+    text-decoration: none;
+    background: #E5E5E5;
+    border: none;
+    border-radius: 15px;
+    color: #AA2528;
+    font-size: 1rem;
+    font-family: "FiraSans-Regular", sans-serif;
+    padding: 5px 15px;
+    cursor: pointer;
+    margin-bottom: 10px; }
+  .prostamol-instruction .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 261px; }
+  .prostamol-instruction .text-aligning {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .prostamol-instruction .b-3__img-container {
+    position: relative;
+    height: 341px;
+    margin: 40px 0; }
+  .prostamol-instruction .b-3__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 355px;
+    height: 341px; }
+  .prostamol-instruction .b-3__list {
+    width: 355px;
+    height: 341px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .prostamol-instruction .b-3__list-item {
+    font-size: 1.11111rem;
+    position: absolute;
+    width: calc(100% + 20px);
+    color: rgba(51, 51, 51, 0.3);
+    padding: 0 0 0 66px;
+    margin: -5px 0 0 0;
+    border-radius: 50px;
+    transition: all 400ms ease-in-out 2s;
+    backface-visibility: hidden; }
+    .prostamol-instruction .b-3__list-item--1 {
+      left: 150px;
+      top: -2px; }
+    .prostamol-instruction .b-3__list-item--2 {
+      left: 298px;
+      top: 101px; }
+    .prostamol-instruction .b-3__list-item--3 {
+      left: 241px;
+      top: 271px; }
+    .prostamol-instruction .b-3__list-item--4 {
+      left: -313px;
+      top: 101px; }
+    .prostamol-instruction .b-3__list-item--5 {
+      left: -257px;
+      top: 271px; }
+    .prostamol-instruction .b-3__list-item:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+      width: 56px;
+      height: 56px;
+      background-image: url(../img/circle.png);
+      opacity: 0;
+      visibility: hidden;
+      transition: all 400ms ease-in-out 2s; }
+    .prostamol-instruction .b-3__list-item.text-right {
+      padding: 0 66px 0 10px; }
+      .prostamol-instruction .b-3__list-item.text-right:before {
+        left: calc(100% - 56px); }
+    .prostamol-instruction .b-3__list-item:hover {
+      color: #333333;
+      background-color: #e1e1e1;
+      transform: translate3d(0, 0, 0) perspective(1px);
+      transition: all 100ms ease-in-out 0s; }
+      .prostamol-instruction .b-3__list-item:hover:before {
+        opacity: 1;
+        visibility: visible;
+        transition: all 100ms ease-in-out 0s; }
+  .prostamol-instruction .b-2--animation1, .prostamol-instruction .b-2--animation2 {
+    opacity: 0; }
+  .prostamol-instruction .b-4--animation1, .prostamol-instruction .b-4--animation2 {
+    opacity: 0; }
+  .prostamol-instruction .hr-animation1, .prostamol-instruction .hr-animation2, .prostamol-instruction .hr-animation3, .prostamol-instruction .hr-animation4 {
+    opacity: 0; }
+  .prostamol-instruction .opacity--Null {
+    opacity: 0; }
+  .prostamol-instruction .invisible-text {
+    display: none; }
+  .prostamol-instruction .img--rotated {
+    transform: rotate(90deg); }
+  .prostamol-instruction .rotated {
+    transform: rotate(270deg); }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
@@ -1512,13 +1687,73 @@ h2 {
 @media only screen and (max-width: 1200px) {
   /**/ }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 992px) {
   /**/ }
+
+@media only screen and (max-width: 767px) {
+  .p-l-r {
+    padding: 0; }
+  .b-3__img-container {
+    height: 26.64062vw;
+    margin: 6.25vw 0; }
+  .b-3__img {
+    width: 27.73438vw;
+    height: 26.64062vw; }
+  .b-3__list {
+    width: 27.73438vw;
+    height: 26.64062vw; }
+  .b-3__list-item {
+    font-size: 1.22222rem;
+    width: 22.26562vw; }
+    .b-3__list-item--1 {
+      left: 16.40625vw;
+      top: -0.625vw; }
+    .b-3__list-item--2 {
+      left: 27.34375vw;
+      top: 7.42188vw; }
+    .b-3__list-item--3 {
+      left: 23.4375vw;
+      top: 20.70312vw; }
+    .b-3__list-item--4 {
+      left: -27.34375vw;
+      top: 7.42188vw; }
+    .b-3__list-item--5 {
+      left: -22.65625vw;
+      top: 20.70312vw; } }
+
+@media only screen and (max-width: 600px) {
+  .b-3__img-container {
+    height: 31.96875vw;
+    margin: 7.5vw 0; }
+  .b-3__img {
+    width: 33.28125vw;
+    height: 31.96875vw; }
+  .b-3__list {
+    width: 33.28125vw;
+    height: 31.96875vw; }
+  .b-3__list-item {
+    font-size: 1.22222rem;
+    width: 26.71875vw; }
+    .b-3__list-item--1 {
+      left: 19.6875vw;
+      top: -0.75vw; }
+    .b-3__list-item--2 {
+      left: 32.8125vw;
+      top: 8.90625vw; }
+    .b-3__list-item--3 {
+      left: 28.125vw;
+      top: 24.84375vw; }
+    .b-3__list-item--4 {
+      left: -32.8125vw;
+      top: 8.90625vw; }
+    .b-3__list-item--5 {
+      left: -27.1875vw;
+      top: 24.84375vw; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /**/ }
+  .p-l-r {
+    padding-left: 0; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
