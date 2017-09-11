@@ -27,7 +27,6 @@
   position: relative
   line-height: normal
   font-family: $f-Regular
-  overflow: auto
   color: #333333
   background-color: #fff
   background-repeat: no-repeat
@@ -35,13 +34,14 @@
   height: 100vh
   padding: 0
   text-align: center
+  overflow-x: hidden
   h2
       font-family: $f-Bold
       font-size: $size-24px
       color: $color-red
       text-transform: uppercase
       margin-top: 45px
-
+      font-weight: normal
   h5
       font-family: $f-Bold
       font-size: $size-18px
@@ -112,7 +112,7 @@
     margin-bottom: 20px
 
   .p-b-1
-    padding-bottom: 1em
+    padding-bottom: 1rem
 
   .m-t-15
       margin-top: 0.75em
@@ -130,8 +130,8 @@
       padding-top: 1.5em
 
   .center
-      display: block
-      width: 90%
+      //display: block
+      width: 80%
       height: auto
 
   .text-center
@@ -174,16 +174,20 @@
       font-size: 114px
       font-family: $f-Black
       color: #FFFFFF
-      padding-left: 15px
+      padding-left: 30px
 
   .roundedRect
+      display: block
       background: #ECF0F6
       border: none
       border-radius: 100px
       font-family: $f-Regular
       //padding: auto 0px
       margin: 30px 0
+      height: 136px
 
+  .circles--right
+    float: right
 
   .textInRoundeRect
       min-height: 150px
@@ -260,18 +264,28 @@
       &--1
           left: 150px
           top: -2px
+          padding-top: 5px
+          padding-bottom: 5px
       &--2
           left: 298px
           top: 101px
+          padding-top: 5px
+          padding-bottom: 5px
       &--3
           left: 241px
           top: 271px
+          padding-top: 5px
+          padding-bottom: 5px
       &--4
           left: -313px
           top: 101px
+          padding-top: 5px
+          padding-bottom: 5px
       &--5
           left: -257px
           top: 271px
+          padding-top: 5px
+          padding-bottom: 5px
       &:before
           content: ''
           position: absolute
@@ -285,7 +299,7 @@
           visibility: hidden
           transition: all 400ms ease-in-out 2s
       &.text-right
-          padding: 0 66px 0 10px
+          padding: 5px 66px 5px 10px
           &:before
               left: calc(100% - 56px)
       &:hover
@@ -317,6 +331,31 @@
 
   .rotated
     transform: rotate(270deg)
+
+  .circle-icons
+    height: 136px
+    width: 136px
+    border-radius: 50%
+    //float: right
+    margin-right: 10px
+    overflow: hidden
+
+  .hover--image
+    transition: transform 0.5s ease-out
+    &:hover
+      transform: scale(1.2)
+
+  .f-right
+    float: right
+
+  .f-left
+    float: left
+
+  .clearfix
+    &::after
+      content: ""
+      clear: both
+      display: table
 
   @import "media"
 
