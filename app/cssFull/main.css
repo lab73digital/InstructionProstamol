@@ -1443,20 +1443,32 @@
   position: relative;
   line-height: normal;
   font-family: "FiraSans-Regular", sans-serif;
-  overflow: auto;
   color: #333333;
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+  overflow-x: hidden;
+  /*==========  Desktop First  ==========*/
+  /* Large Devices, Wide Screens */
+  /* Large Devices, Wide Screens */
+  /* Extra Small Devices, Phones */
+  /* Custom, iPhone Retina */
+  /*==========  Mobile First  ==========*/
+  /* Custom, iPhone Retina */
+  /* Extra Small Devices, Phones */
+  /* Small Devices, Tablets */
+  /* Medium Devices, Desktops */
+  /* Large Devices, Wide Screens */ }
   .prostamol-instruction h2 {
     font-family: "FiraSans-Bold", sans-serif;
     font-size: 1.333rem;
     color: #AA2528;
     text-transform: uppercase;
-    margin-top: 45px; }
+    margin-top: 45px;
+    font-weight: normal; }
   .prostamol-instruction h5 {
     font-family: "FiraSans-Bold", sans-serif;
     font-size: 1rem;
@@ -1467,8 +1479,7 @@
     font-weight: normal; }
   .prostamol-instruction .f-18-light {
     font-family: "FiraSans-Light", sans-serif;
-    font-size: 1rem;
-    font-weight: normal; }
+    font-size: 1rem; }
   .prostamol-instruction .f-24-bold {
     font-family: "FiraSans-Bold", sans-serif;
     font-size: 1.333rem;
@@ -1510,7 +1521,7 @@
   .prostamol-instruction .m-b-5 {
     margin-bottom: 20px; }
   .prostamol-instruction .p-b-1 {
-    padding-bottom: 1em; }
+    padding-bottom: 1rem; }
   .prostamol-instruction .m-t-15 {
     margin-top: 0.75em; }
   .prostamol-instruction .m-t {
@@ -1522,8 +1533,7 @@
   .prostamol-instruction .p-t {
     padding-top: 1.5em; }
   .prostamol-instruction .center {
-    display: block;
-    width: 100%;
+    width: 80%;
     height: auto; }
   .prostamol-instruction .text-center {
     text-align: center; }
@@ -1554,13 +1564,17 @@
     font-size: 114px;
     font-family: "FiraSans-Black", sans-serif;
     color: #FFFFFF;
-    padding-left: 15px; }
+    padding-left: 30px; }
   .prostamol-instruction .roundedRect {
+    display: block;
     background: #ECF0F6;
     border: none;
     border-radius: 100px;
     font-family: "FiraSans-Regular", sans-serif;
-    margin: 30px 0; }
+    margin: 30px 0;
+    height: 136px; }
+  .prostamol-instruction .circles--right {
+    float: right; }
   .prostamol-instruction .textInRoundeRect {
     min-height: 150px;
     font-size: 1.111rem; }
@@ -1625,19 +1639,29 @@
     backface-visibility: hidden; }
     .prostamol-instruction .b-3__list-item--1 {
       left: 150px;
-      top: -2px; }
+      top: -2px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
     .prostamol-instruction .b-3__list-item--2 {
       left: 298px;
-      top: 101px; }
+      top: 101px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
     .prostamol-instruction .b-3__list-item--3 {
       left: 241px;
-      top: 271px; }
+      top: 271px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
     .prostamol-instruction .b-3__list-item--4 {
       left: -313px;
-      top: 101px; }
+      top: 101px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
     .prostamol-instruction .b-3__list-item--5 {
       left: -257px;
-      top: 271px; }
+      top: 271px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
     .prostamol-instruction .b-3__list-item:before {
       content: '';
       position: absolute;
@@ -1651,7 +1675,7 @@
       visibility: hidden;
       transition: all 400ms ease-in-out 2s; }
     .prostamol-instruction .b-3__list-item.text-right {
-      padding: 0 66px 0 10px; }
+      padding: 5px 66px 5px 10px; }
       .prostamol-instruction .b-3__list-item.text-right:before {
         left: calc(100% - 56px); }
     .prostamol-instruction .b-3__list-item:hover {
@@ -1677,105 +1701,117 @@
     transform: rotate(90deg); }
   .prostamol-instruction .rotated {
     transform: rotate(270deg); }
-
-/*==========  Desktop First  ==========*/
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1366px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  /**/ }
-
-@media only screen and (max-width: 992px) {
-  /**/ }
-
-@media only screen and (max-width: 767px) {
-  .p-l-r {
-    padding: 0; }
-  .b-3__img-container {
-    height: 26.64062vw;
-    margin: 6.25vw 0; }
-  .b-3__img {
-    width: 27.73438vw;
-    height: 26.64062vw; }
-  .b-3__list {
-    width: 27.73438vw;
-    height: 26.64062vw; }
-  .b-3__list-item {
-    font-size: 1.22222rem;
-    width: 22.26562vw; }
-    .b-3__list-item--1 {
-      left: 16.40625vw;
-      top: -0.625vw; }
-    .b-3__list-item--2 {
-      left: 27.34375vw;
-      top: 7.42188vw; }
-    .b-3__list-item--3 {
-      left: 23.4375vw;
-      top: 20.70312vw; }
-    .b-3__list-item--4 {
-      left: -27.34375vw;
-      top: 7.42188vw; }
-    .b-3__list-item--5 {
-      left: -22.65625vw;
-      top: 20.70312vw; } }
-
-@media only screen and (max-width: 600px) {
-  .b-3__img-container {
-    height: 31.96875vw;
-    margin: 7.5vw 0; }
-  .b-3__img {
-    width: 33.28125vw;
-    height: 31.96875vw; }
-  .b-3__list {
-    width: 33.28125vw;
-    height: 31.96875vw; }
-  .b-3__list-item {
-    font-size: 1.22222rem;
-    width: 26.71875vw; }
-    .b-3__list-item--1 {
-      left: 19.6875vw;
-      top: -0.75vw; }
-    .b-3__list-item--2 {
-      left: 32.8125vw;
-      top: 8.90625vw; }
-    .b-3__list-item--3 {
-      left: 28.125vw;
-      top: 24.84375vw; }
-    .b-3__list-item--4 {
-      left: -32.8125vw;
-      top: 8.90625vw; }
-    .b-3__list-item--5 {
-      left: -27.1875vw;
-      top: 24.84375vw; } }
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
-  .p-l-r {
-    padding-left: 0; } }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  /**/ }
-
-/*==========  Mobile First  ==========*/
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  /**/ }
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  /**/ }
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  /**/ }
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  /**/ }
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  /**/ }
+  .prostamol-instruction .circle-icons {
+    border-radius: 50%;
+    overflow: hidden; }
+  .prostamol-instruction .circle-back {
+    background-color: #00ACD7;
+    z-index: 1; }
+  .prostamol-instruction .hover--image {
+    transition: transform 0.5s ease-out; }
+    .prostamol-instruction .hover--image:hover {
+      transform: scale(1.2); }
+  .prostamol-instruction .box {
+    overflow: hidden;
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    float: right;
+    transform: translate3d(0, 0, 0); }
+    .prostamol-instruction .box img {
+      transition: all 1s ease-out; }
+      .prostamol-instruction .box img:hover {
+        transform: scale(1.2); }
+  .prostamol-instruction .f-right {
+    float: right; }
+  .prostamol-instruction .f-left {
+    float: left; }
+  .prostamol-instruction .clearfix::after {
+    content: "";
+    clear: both;
+    display: table; }
+  @media only screen and (max-width: 1366px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (max-width: 1200px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (max-width: 992px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (max-width: 767px) {
+    .prostamol-instruction .b-5-p {
+      padding-bottom: 0;
+      text-align: center; }
+    .prostamol-instruction .p-l-r {
+      padding: 0; } }
+  @media only screen and (max-width: 600px) {
+    .prostamol-instruction .b-3__list-item {
+      font-size: 0.77778rem;
+      position: absolute;
+      width: calc(100% + 20px);
+      color: rgba(51, 51, 51, 0.3);
+      padding: 7px 0 0 66px;
+      margin: -5px 0 0 0;
+      border-radius: 50px;
+      transition: all 400ms ease-in-out 2s;
+      backface-visibility: hidden; } }
+  @media only screen and (max-width: 480px) {
+    .prostamol-instruction .textWidth {
+      max-width: 100px; }
+    .prostamol-instruction .p-l-r {
+      padding: 0; }
+    .prostamol-instruction .b-3__list-item {
+      font-size: 0.66667rem;
+      position: absolute;
+      width: calc(100% + 100px);
+      color: #333333;
+      padding: 14px 0 0 12px;
+      margin: -5px 0 0 0;
+      border-radius: 50px;
+      transition: none;
+      backface-visibility: hidden; }
+      .prostamol-instruction .b-3__list-item:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 20px;
+        transform: translate(0, -50%);
+        width: 16px;
+        height: 16px;
+        background-image: none;
+        opacity: 1;
+        visibility: hidden;
+        transition: none; }
+      .prostamol-instruction .b-3__list-item.text-right {
+        padding: 13px 1px 0 330px;
+        text-align: left; }
+      .prostamol-instruction .b-3__list-item:before {
+        left: calc(100% - 56px); }
+      .prostamol-instruction .b-3__list-item:hover {
+        color: #333333;
+        background-color: rgba(51, 51, 51, 0);
+        transform: none;
+        transition: none; }
+        .prostamol-instruction .b-3__list-item:hover:before {
+          opacity: 1;
+          visibility: visible;
+          transition: all 100ms ease-in-out 0s; } }
+  @media only screen and (max-width: 320px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (min-width: 320px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (min-width: 480px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (min-width: 768px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (min-width: 992px) {
+    .prostamol-instruction {
+      /**/ } }
+  @media only screen and (min-width: 1200px) {
+    .prostamol-instruction {
+      /**/ } }
