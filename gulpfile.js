@@ -65,7 +65,7 @@ gulp.task('watch', ['sass', 'scripts', 'browser-sync'], function() {
 gulp.task('imagemin', function() {
 	return gulp.src('app/img/**/*')
 	.pipe(cache(imagemin()))
-	.pipe(gulp.dest('dist2/img/special/InstructionProstamol'));
+	.pipe(gulp.dest('dist3/img/special/instructionprostamol'));
 });
 
 gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
@@ -73,19 +73,19 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
 	var buildFiles = gulp.src([
 		'app/*.html',
 		'app/.htaccess'
-		]).pipe(gulp.dest('dist2'));
+		]).pipe(gulp.dest('dist3'));
 
 	var buildCss = gulp.src([
 		'app/css/main.min.css',
-		]).pipe(gulp.dest('dist2/css/special/InstructionProstamol'));
+		]).pipe(gulp.dest('dist3/css/special/instructionprostamol'));
 
 	var buildJs = gulp.src([
 		'app/js/scripts.min.js'
-		]).pipe(gulp.dest('dist2/js/special/InstructionProstamol'));
+		]).pipe(gulp.dest('dist3/js/special/instructionprostamol'));
 
 	var buildFonts = gulp.src([
 		'app/fonts/**/*']
-		).pipe(gulp.dest('dist2/fonts/special/InstructionProstamol'));
+		).pipe(gulp.dest('dist3/fonts/special/instructionprostamol'));
 
 });
 
