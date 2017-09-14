@@ -70,22 +70,22 @@ gulp.task('imagemin', function() {
 
 gulp.task('build', ['removedist', 'imagemin', 'sass', 'scripts'], function() {
 
-	var buildFiles = gulp.src([
-		'app/*.html',
-		'app/.htaccess'
-		]).pipe(gulp.dest('dist3'));
+    var buildFiles = gulp.src([
+        'app/*.html',
+        'app/.htaccess'
+    ]).pipe(gulp.dest('dist'));
 
-	var buildCss = gulp.src([
-		'app/css/main.min.css',
-		]).pipe(gulp.dest('dist3/css/special/instructionprostamol'));
+    var buildCss = gulp.src([
+        'app/css/main.min.css',
+    ]).pipe(gulp.dest('dist/css'));
 
-	var buildJs = gulp.src([
-		'app/js/scripts.min.js'
-		]).pipe(gulp.dest('dist3/js/special/instructionprostamol'));
+    var buildJs = gulp.src([
+        'app/js/scripts.min.js'
+    ]).pipe(gulp.dest('dist/js'));
 
-	var buildFonts = gulp.src([
-		'app/fonts/**/*']
-		).pipe(gulp.dest('dist3/fonts/special/instructionprostamol'));
+    var buildFonts = gulp.src([
+        'app/fonts/**/*']
+    ).pipe(gulp.dest('dist/fonts'));
 
 });
 

@@ -30,6 +30,9 @@
     text-align: center
   .p-l-r
     padding: 0
+  ul.b-3__list
+    li.b-3__list-item
+      font-size: 14px
   //.b-3__img-container
   //  height: get-vw(341px * 1.5)
   //  margin: get-vw(80px* 1.5) 0
@@ -60,43 +63,80 @@
 
 ///* Small Devices, Tablets */
 @media only screen and (max-width : 600px)
-  .b-3__list-item
-    font-size: get-rem(14)
+  ul.b-3__list
+    width: 355px
+    height: 341px
     position: absolute
-    width: calc(100% + 20px)
-    color: rgba(51, 51, 51, .3)
-    padding: 7px 0 0 66px
-    margin: -5px 0 0 0
-    border-radius: 50px
-    transition: all 400ms ease-in-out 2s
-    backface-visibility: hidden
-    //.b-3__img-container
-    //    height: get-vw(341px * 1.8)
-    //    margin: get-vw(80px* 1.8) 0
-    //.b-3__img
-    //    width: get-vw(355px * 1.8)
-    //    height: get-vw(341px * 1.8)
-    //.b-3__list
-    //    width: get-vw(355px * 1.8)
-    //    height: get-vw(341px * 1.8)
-    //.b-3__list-item
-    //    font-size: get-rem(22)
-    //    width: get-vw(285px * 1.8)
-    //    &--1
-    //        left: get-vw(210px * 1.8)
-    //        top: get-vw(-8px * 1.8)
-    //    &--2
-    //        left: get-vw(350px * 1.8)
-    //        top: get-vw(95px * 1.8)
-    //    &--3
-    //        left: get-vw(300px * 1.8)
-    //        top: get-vw(265px * 1.8)
-    //    &--4
-    //        left: get-vw(-350px * 1.8)
-    //        top: get-vw(95px * 1.8)
-    //    &--5
-    //        left: get-vw(-290px * 1.8)
-    //        top: get-vw(265px * 1.8)
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    list-style: none
+    padding: 0
+    margin: 0
+    li.b-3__list-item
+      font-size: 12px
+      position: absolute
+      width: calc(100% + 100px)
+      color: rgba(51, 51, 51, 1)
+      padding: 14px 0 0 12px
+      margin: -5px 0 0 0
+      border-radius: 50px
+      transition: none
+      backface-visibility: hidden
+      &:before
+        content: ''
+        position: absolute
+        left: 0
+        top: 20px
+        transform: translate(0, -50%)
+        width: 16px
+        height: 16px
+        background-image: none
+        opacity: 1
+        visibility: hidden
+        transition: none
+      &.text-right
+        padding: 13px 1px 0 330px
+        text-align: left
+      &:before
+        left: calc(100% - 56px)
+      &:hover
+        color: rgba(51, 51, 51, 1)
+        background-color: rgba(51, 51, 51, 0)
+        transform: none
+        transition: none
+        &:before
+          opacity: 1
+          visibility: visible
+          transition: all 100ms ease-in-out 0s
+
+      //.b-3__img-container
+      //    height: get-vw(341px * 1.8)
+      //    margin: get-vw(80px* 1.8) 0
+      //.b-3__img
+      //    width: get-vw(355px * 1.8)
+      //    height: get-vw(341px * 1.8)
+      //.b-3__list
+      //    width: get-vw(355px * 1.8)
+      //    height: get-vw(341px * 1.8)
+      //.b-3__list-item
+      //    font-size: get-rem(22)
+      //    width: get-vw(285px * 1.8)
+      //    &--1
+      //        left: get-vw(210px * 1.8)
+      //        top: get-vw(-8px * 1.8)
+      //    &--2
+      //        left: get-vw(350px * 1.8)
+      //        top: get-vw(95px * 1.8)
+      //    &--3
+      //        left: get-vw(300px * 1.8)
+      //        top: get-vw(265px * 1.8)
+      //    &--4
+      //        left: get-vw(-350px * 1.8)
+      //        top: get-vw(95px * 1.8)
+      //    &--5
+      //        left: get-vw(-290px * 1.8)
+        //        top: get-vw(265px * 1.8)
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
@@ -104,42 +144,12 @@
     max-width: 100px
   .p-l-r
     padding: 0
-  .b-3__list-item
-    font-size: get-rem(12)
-    position: absolute
-    width: calc(100% + 100px)
-    color: rgba(51, 51, 51, 1)
-    padding: 14px 0 0 12px
-    margin: -5px 0 0 0
-    border-radius: 50px
-    transition: none
-    backface-visibility: hidden
-    &:before
-      content: ''
-      position: absolute
-      left: 0
-      top: 20px
-      transform: translate(0, -50%)
-      width: 16px
-      height: 16px
-      background-image: none
-      opacity: 1
-      visibility: hidden
-      transition: none
-    &.text-right
-      padding: 13px 1px 0 330px
-      text-align: left
-    &:before
-      left: calc(100% - 56px)
-    &:hover
-      color: rgba(51, 51, 51, 1)
-      background-color: rgba(51, 51, 51, 0)
-      transform: none
-      transition: none
-      &:before
-        opacity: 1
-        visibility: visible
-        transition: all 100ms ease-in-out 0s
+  ul.b-3__list
+    li.b-3__list-item
+      &--2
+        max-width: 5px
+
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px)
