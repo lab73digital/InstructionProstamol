@@ -36,6 +36,11 @@
     height: inherit
     border: none
 
+  p
+    padding: 0
+    line-height: 20px
+    margin-bottom: 0
+
   h2, h3, h4, h5
     padding: 0
     margin: 1.67em 0
@@ -137,6 +142,9 @@
   .m-t-16
     margin-top: 16px
 
+  .m-t-30
+    margin-top: 30px
+
   .center
     //display: block
     width: 80%
@@ -207,6 +215,9 @@
 
   .textWidth
     width: 200px
+
+  .maxTextWidth
+    max-width: 150px
 
   .button
     display: inline-block
@@ -293,6 +304,7 @@
         padding-top: 5px
         padding-bottom: 5px
       &:before
+        display: inherit
         content: ''
         position: absolute
         left: 0
@@ -368,6 +380,9 @@
   .f-left
     float: left
 
+  .display--none
+    display: none
+
   .clearfix
     &::after
       content: ""
@@ -376,13 +391,6 @@
 
   @import "media"
 
-.article-container .prostamol-instruction p
-  padding: 0
-  line-height: 20px
-  margin-bottom: 0
-
-.article-container .lekarstva-page__lekarstvo__tabs__subtabs__container ul li:before
-  display: inherit
 
 // Всегда в конце
 // ss
